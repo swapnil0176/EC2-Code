@@ -18,4 +18,3 @@ variable "key_name" {
   description = "Existing AWS Key Pair Name"
   default = "PROD"
 }
-//Added comment
