@@ -10,6 +10,6 @@ resource "aws_instance" "web" {
   key_name               = var.key_name
 
   tags = {
-    Name = "demo-ec2"
+    Name = "my-ec2"
   }
 }

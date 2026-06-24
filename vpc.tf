@@ -4,14 +4,14 @@ resource "aws_vpc" "main" {
   enable_dns_support   = true
 
   tags = {
-    Name = "demo-vpc"
+    Name = "my-vpc"
   }
 }
 resource "aws_internet_gateway" "igw" {
   vpc_id = aws_vpc.main.id
 
   tags = {
-    Name = "demo-igw"
+    Name = "my-igw"
   }
 }
 resource "aws_subnet" "public" {
