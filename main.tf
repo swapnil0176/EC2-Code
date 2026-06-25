@@ -5,7 +5,7 @@ terraform {
     organization = "My-EC2"
 
     workspaces {
-      name = "Create-EC2"
+      name = "EC2-Code"
     }
   }
 }
